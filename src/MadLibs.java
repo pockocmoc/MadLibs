@@ -12,10 +12,14 @@ public class MadLibs {
             String pastTenseVerb = in.nextLine();
             System.out.println("Укажите прилагательное мужского рода в родительном падеже (например: глупого)");
             String adjective = in.nextLine();
+            System.out.println("Укажите глагол, в прошедшем времени:");
+            String pastTenseVerbTwo = in.nextLine();
 
 
 
-            System.out.println(color + " дракон " + pastTenseVerb + " на " + adjective + " рыцаря.");
+
+            System.out.println(color + " дракон " + pastTenseVerb + " на " + adjective + " рыцаря, когда тот "
+            + pastTenseVerbTwo +".");
             in.close();
 
         }
